@@ -1,7 +1,7 @@
 /* We need to generate a random number between 1 and 10 (in Bicycle)
 We need to use Input.getInt() to guarantee a valid number from the user (scanner)
 We need feedback
-We need a loop to check if correct guess, and if not, prompt again
+We need a loop to check if a correct guess, and if not, prompt again
 We need to handle singular/plural in our feedback  */
 
 import java.util.Scanner;
@@ -38,7 +38,7 @@ public class Main {
         if(running){
             //System.out.println("You guessed "+ guess+". And it's correct!");
             System.out.println(feedback);
-        } //Varvara Maslouskaya
+        } 
 
 
 
